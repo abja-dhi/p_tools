@@ -1,5 +1,5 @@
 import numpy as np
-import mikeio
+import mikeio_DHI
 from .p_structure import p_structure
 
 def uv2spddir(u, v, DIR, *arg):

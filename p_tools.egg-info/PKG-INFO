@@ -1,6 +1,4 @@
 Metadata-Version: 2.1
 Name: p-tools
 Version: 0.1
-Requires-Dist: numpy
-Requires-Dist: mikeio
-Requires-Dist: pandas
+License-File: LICENSE

@@ -1,8 +1,10 @@
+LICENSE
 README.md
 setup.py
 p_tools/ColorMap.csv
 p_tools/ColorOrder.csv
 p_tools/__init__.py
+p_tools/p_extreme.py
 p_tools/p_monthly.py
 p_tools/p_quantiles.py
 p_tools/p_statistics.py

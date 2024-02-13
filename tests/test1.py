@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 from scipy.stats import skew
 from p_tools import p_stats
 from scipy.stats.mstats import mquantiles
-import mikeio
+import mikeio_DHI
 from matplotlib.transforms import Bbox
 
 xyz = np.array([-124.794, 41.137, 1748.121])

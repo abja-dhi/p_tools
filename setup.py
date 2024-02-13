@@ -7,7 +7,7 @@ setup(
     package_data={'p_tools': ['ColorMap.csv', "ColorOrder.csv"]},
     install_requires=[
         "numpy",
-        "mikeio",
+        "mikeio_DHI",
         "pandas"
     ],
 )

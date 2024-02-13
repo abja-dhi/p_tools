@@ -1,4 +1,4 @@
-import mikeio
+import mikeio_DHI
 import pandas as pd
 import numpy as np
 from datetime import datetime
@@ -98,7 +98,7 @@ class p_structure:
         return
 
     def p_read(self):
-        df = mikeio.read(self.fname)
+        df = mikeio_DHI.read(self.fname)
         df = df.sel(time=slice(self.ttt[0].strftime("%Y-%m-%d %H:%M"), self.ttt[1].strftime("%Y-%m-%d %H:%M")))
         try:
             self.data = df[self.icol - 1].values
